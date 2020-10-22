@@ -20,6 +20,10 @@ h1 {
   flex-grow: 1;
 }
 
+header > a {
+  margin-right: 5px;
+}
+
 header > a > img {
   vertical-align: middle;
 }

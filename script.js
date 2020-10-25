@@ -1,6 +1,8 @@
 const tilesWrapper = document.getElementById("tiles");
 const audioWrapper = document.getElementById("audio");
 
+let currentAudio;
+
 audioFiles.forEach((file, index) => {
   const audio = document.createElement("audio");
   audio.id = "audio" + index;
@@ -21,6 +23,11 @@ audioFiles.forEach((file, index) => {
   tile.appendChild(title);
   tile.appendChild(author);
   tile.onclick = () => {
+    if (currentAudio) {
+      currentAudio.pause();
+      currentAudio.currentTime = 0;
+    }
+    currentAudio = audio;
     audio.play();
     return false;
   };

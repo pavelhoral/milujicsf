@@ -12,7 +12,6 @@ const AUDIO_CACHE = "audio-v1";
 self.addEventListener("install", event => {
   const staticFiles = [
     "manifest.json",
-    "/",
     "index.html",
     "config.js",
     "script.js",

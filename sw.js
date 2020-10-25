@@ -52,7 +52,8 @@ self.addEventListener("activate", event => {
 });
 
 self.addEventListener("fetch", event => {
-  event.respondWith(
-    caches.match(event.request).then(res => res || fetch(event.request))
-  );
+  const requestUrl = new URL(event.request.url);
+  const indexRequest = requestUrl.pathname === "/" || requestUrl.pathname === "/milujicsf/";
+  const cacheKey = indexRequest ? "index.html" : event.request;
+  event.respondWith(caches.match(cacheKey).then(res => res || fetch(event.request)));
 });

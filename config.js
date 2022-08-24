@@ -13,6 +13,7 @@ const audioFiles = [
   ["Mysterion", "Běžím, vytahuju!", "files/mysterion_bezim_vytahuju.mp3", 0.8],
   ["Mysterion", "Já ho minul!", "files/mysterion_ja_ho_minul.mp3", 0.8],
   ["Mysterion", "Minul!", "files/mysterion_minul.mp3", 0.8],
+  ["Nasty", "Skrz strom!", "files/nasty_skrz_strom.mp3", 1],
   ["Palko", "Patro do patra!", "files/palko_patro_do_patra.mp3", 0.7],
   ["Palko", "Skrz kámen!", "files/palko_skrz_kamen.mp3", 0.7],
 ];

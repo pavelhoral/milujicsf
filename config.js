@@ -2,6 +2,7 @@ const audioFiles = [
   ["Alis", "Drž hubu!", "files/alis_drz_hubu.mp3", 1],
   ["Alis", "Není problém!", "files/alis_neni_problem.mp3", 1],
   ["Alis", "Mi upadne čůrák!", "files/alis_upadne_curak.mp3", 1],
+  ["Bucks", "Jebu to!", "files/bucks_jebu_to.mp3", 1],
   ["BZX", "AAAAAAAA!", "files/bzx_aaaaaaa.mp3", 0.3],
   ["BZX", "Kreténskej idiot!", "files/bzx_kretenskej_idiot.mp3", 0.3],
   ["BZX", "Krypleee!", "files/bzx_krypleee.mp3", 1],
